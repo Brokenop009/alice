@@ -7,22 +7,23 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 22906517
+API_HASH = "1cf16ce3d5f8f52fbba910829cf8af12"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7318180250:AAHV1AwMUpslNHpjIAmPd79WRiQYnmTdeag"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://ANKIT009:ANKIT009@cluster0.tjcrg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002444359388
+
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7660207251
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +40,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/CUTE_SEXY_DPZ"
+SUPPORT_GROUP = "https://t.me/HEART_ZONEE"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +63,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFdhpUARpvj0SVYXzbaZiX2_xCrVZ7vSqU-L8pUsiB833dOsDKREUUKcEETpM-w_GE-whfIi_Etsi8kmVXd1j71X9ZOdPvsfjFz7hryzaa4-SIv-WfcIiL6UBGeL5ZNCx0teFLZccZjSNMri7uKnEGG6AWiugX1Rj8kHUc5Nx4l0DlxcCEJMhWHnHB1I4ytbdDjCc5NUTS8TfvdqNqbZQLBph5GrGJ9yS68Q9HwOO4wj3A8gY0uaN1un1xKQ5Er-8H-kd8O39eBR3AGqoaabZ8FF5EuXZ_RopTxLZwhjB0jnK_2FTlcZg5yIA7dyipxfCqpzivTgP55qNilZBfWvYs3xvsYrwAAAAHIlXyTAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
